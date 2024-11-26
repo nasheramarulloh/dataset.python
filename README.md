@@ -2,8 +2,9 @@
 ## Porject Portfolio Exploratory Data Science Python
 Dalam dunia Data Science, pohon keputusan adalah salah satu algoritma yang digunakan secara luas untuk tugas klasifikasi dan regresi. Algoritma ini membuat model prediktif dengan membagi data menjadi subset berdasarkan fitur, menyerupai struktur pohon.
 
-Sumber: GeeksforGeeks: Decision Tree Introduction
-Dataset: Digits Dataset dari Scikit-learn
+Sumber: 
+Dataset: https://scikit-learn.org/1.5/modules/generated/sklearn.datasets.load_digits.html#sklearn.datasets.load_digits
+Algoritma:https://www.geeksforgeeks.org/decision-tree-introduction-example/
 
 Dataset Overview
 Dataset digits adalah kumpulan gambar angka tulisan tangan (0-9) yang direpresentasikan sebagai matriks 8x8. Setiap gambar memiliki fitur berupa nilai piksel yang diratakan menjadi vektor berdimensi 64. Tujuannya adalah untuk memprediksi angka dari gambar berdasarkan nilai pikselnya.
@@ -31,8 +32,6 @@ Mengukur performa model berdasarkan akurasi pada data uji.
 - Pohon keputusan, meskipun sederhana, memberikan hasil yang cukup baik untuk dataset kecil.
 - Analisis lebih lanjut dapat dilakukan dengan mengoptimalkan parameter seperti max_depth atau mencoba algoritma lain seperti Random Forest atau SVM untuk hasil yang lebih akurat.
 
-Jika Anda memiliki saran atau umpan balik, jangan ragu untuk menghubungi saya melalui:
-
+Jika Anda memiliki saran atau umpan balik, silakan hubungi saya melalui pesan langsung di LinkedIn atau email di:
 Email: nasheramarulloh@gmail.com
-
-LinkedIn: Nasher Amarulloh
+LinkedIn: https://www.linkedin.com/in/nasher-a-37971a278/
