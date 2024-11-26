@@ -33,5 +33,4 @@ Mengukur performa model berdasarkan akurasi pada data uji.
 - Analisis lebih lanjut dapat dilakukan dengan mengoptimalkan parameter seperti max_depth atau mencoba algoritma lain seperti Random Forest atau SVM untuk hasil yang lebih akurat.
 
 Jika Anda memiliki saran atau umpan balik, silakan hubungi saya melalui pesan langsung di LinkedIn atau email di:
-Email: nasheramarulloh@gmail.com
-LinkedIn: https://www.linkedin.com/in/nasher-a-37971a278/
+Email: nasheramarulloh@gmail.com & https://www.linkedin.com/in/nasher-a/
