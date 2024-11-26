@@ -3,6 +3,7 @@
 Dalam dunia Data Science, pohon keputusan adalah salah satu algoritma yang digunakan secara luas untuk tugas klasifikasi dan regresi. Algoritma ini membuat model prediktif dengan membagi data menjadi subset berdasarkan fitur, menyerupai struktur pohon.
 
 Sumber: Artikel GeeksforGeeks: Decision Tree Introduction.
+
 Dataset: Digits Dataset dari Scikit-learn.
 
 Dataset Overview
@@ -34,4 +35,5 @@ Mengukur performa model berdasarkan akurasi pada data uji.
 Jika Anda memiliki saran atau umpan balik, jangan ragu untuk menghubungi saya melalui:
 
 Email: nasheramarulloh@gmail.com
+
 LinkedIn: Nasher Amarulloh
