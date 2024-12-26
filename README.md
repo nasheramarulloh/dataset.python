@@ -1,36 +1,43 @@
 # Dataset load_digits & Algoritma Pohon Keputusan
 ## Porject Portfolio Exploratory Data Science Python
-Dalam dunia Data Science, pohon keputusan adalah salah satu algoritma yang digunakan secara luas untuk tugas klasifikasi dan regresi. Algoritma ini membuat model prediktif dengan membagi data menjadi subset berdasarkan fitur, menyerupai struktur pohon.
+In the world of Data Science, decision trees are one of the algorithms that are widely used for classification and regression tasks. This algorithm creates a predictive model by dividing data into subsets based on features, resembling a tree structure.
 
 Sumber: 
 Dataset: https://scikit-learn.org/1.5/modules/generated/sklearn.datasets.load_digits.html#sklearn.datasets.load_digits
 Algoritma:https://www.geeksforgeeks.org/decision-tree-introduction-example/
 
 Dataset Overview
-Dataset digits adalah kumpulan gambar angka tulisan tangan (0-9) yang direpresentasikan sebagai matriks 8x8. Setiap gambar memiliki fitur berupa nilai piksel yang diratakan menjadi vektor berdimensi 64. Tujuannya adalah untuk memprediksi angka dari gambar berdasarkan nilai pikselnya.
+The digits dataset is a collection of images of handwritten numbers (0-9) represented as an 8x8 matrix. Each image has features in the form of pixel values ​​which are flattened into a 64-dimensional vector. The goal is to predict numbers from the image based on the pixel values.
 
-**Langkah-langkah Analisis:**
-1. Memuat Dataset
-Dataset digits akan diakses menggunakan modul datasets dari scikit-learn. Dataset ini memiliki 1.797 sampel data, masing-masing dengan 64 fitur dan target berupa label angka (0–9).
-2. Eksplorasi Data
-Visualisasi beberapa sampel untuk memahami karakteristik gambar dan distribusi data.
-3. Modeling dengan Pohon Keputusan
-Membangun model klasifikasi menggunakan DecisionTreeClassifier dari scikit-learn.
-4. Evaluasi
-Mengukur performa model berdasarkan akurasi pada data uji.
+**step by step Analisis:**
+1. Load Dataset
+The digits dataset will be accessed using the datasets module of scikit-learn. This dataset has 1,797 data samples, each with 64 features and targets in the form of number labels (0–9).
+2. Data Exploration
+Visualization of multiple samples to understand image characteristics and data distribution.
+3. Modeling with Decision Trees
+1. Load Dataset
+The digits dataset will be accessed using the datasets module of scikit-learn. This dataset has 1,797 data samples, each with 64 features and targets in the form of number labels (0–9).
+2. Data Exploration
+Visualization of multiple samples to understand image characteristics and data distribution.
+3. Modeling with Decision Trees
+Building a classification model using DecisionTreeClassifier from scikit-learn.
+4. Evaluation
+Measures model performance based on accuracy on test data.
+4. Evaluation
+Measures model performance based on accuracy on test data.
 
-**Hasil Analisis:**
-1. Eksplorasi Dataset: Dataset terdiri dari 1.797 sampel, masing-masing dengan 64 fitur.
-2. Visualisasi: Gambar angka divisualisasikan menggunakan matplotlib.
-3. Klasifikasi dengan Pohon Keputusan:
-- Model dilatih dengan data latih (70%) dan diuji pada data uji (30%).
-- Akurasi model dihitung untuk mengukur performanya.
-4. Matriks Kebingungan: Matriks kebingungan divisualisasikan untuk memahami prediksi yang benar dan salah.
+**results Analisis:**
+1. Dataset Exploration: The dataset consists of 1,797 samples, each with 64 features.
+2. Visualization: Figure images are visualized using matplotlib.
+3. Classification with Decision Trees:
+- The model is trained on training data (70%) and tested on test data (30%).
+- Model accuracy is calculated to measure its performance.
+4. Confusion Matrix: Confusion matrix is ​​visualized to understand correct and incorrect predictions.
   
-**Kesimpulan:**
-- Dataset digits adalah kasus ideal untuk pemula dalam klasifikasi multikelas.
-- Pohon keputusan, meskipun sederhana, memberikan hasil yang cukup baik untuk dataset kecil.
-- Analisis lebih lanjut dapat dilakukan dengan mengoptimalkan parameter seperti max_depth atau mencoba algoritma lain seperti Random Forest atau SVM untuk hasil yang lebih akurat.
+**Conclusion:**
+- The digits dataset is an ideal case for beginners in multiclass classification.
+- Decision trees, although simple, provide quite good results for small datasets.
+- Further analysis can be done by optimizing parameters such as max_ depth or trying other algorithms such as Random Forest or SVM for more accurate results.
 
-Jika Anda memiliki saran atau umpan balik, silakan hubungi saya melalui pesan langsung di LinkedIn atau email di:
+If you have any suggestions or feedback, please contact me via direct message on LinkedIn or email at:
 Email: nasheramarulloh@gmail.com & https://www.linkedin.com/in/nasher-a/
